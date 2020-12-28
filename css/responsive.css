@@ -1,165 +1,220 @@
-/* // X-Small devices (portrait phones, less than 576px) */
-
-@media (max-width: 575.98px) {
-    .hero-text {
-        padding-top: 10%;
-    }
-    .about {
-        padding: 40px 0;
-    }
-    .about::after {
-        top: -100px;
-        left: 0;
-        width: 58%;
-        height: 63%;
-    }
-    .about-vedio img {
-        max-width: 425px;
-    }
-    .about-txt {
-        padding-top: 70px;
-    }
-    .vedio-play {
-        left: 45%;
-    }
-    .sign-content {
-        margin-top: 2%;
-        text-align: center;
-    }
-    .signUp-from {
-        padding: 27px 31px;
-        max-width: 400px;
-        margin: 0 auto;
-    }
-    .btn.btn-primary {
-        padding: 6px 30px;
-        font-size: 14px;
-    }
-    section.news {
-        padding: 50px 0;
-    }
-    .news-item {
-        padding: 30px 0 15px 0;
-        text-align: center;
-    }
-    .footer {
-        padding: 40px 0 30px 0;
-    }
-    .footer-heading {
-        text-align: center;
-    }
-    .social-link {
-        padding-top: 10px;
-        justify-content: center;
-    }
-    .social-link li a {
-        margin: 10px;
-    }
-    .footer-heading h4 {
-        padding-bottom: 5px;
-        font-size: 16px;
-        margin-top: 20px;
-    }
-    .footer-heading P {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        margin: 5px 0;
-    }
-    .copyrigth {
-        padding: 15px 0 00;
-    }
-    ul.copyright-link {
-        margin: 7px auto;
-    }
-}
-
-
-/* Small devices (landscape phones, less than 768px) */
-
-@media (max-width: 767.98px) {
-    .hero:before {
-        width: 100%;
-        height: 77vh;
-        top: 142px;
-    }
-    .about::after {
-        top: -100px;
-        width: 60%;
-        height: 77%;
-    }
-    .about-vedio {
-        max-width: 447px;
-    }
-    .hero-text {
-        padding-top: 10%;
-    }
-    .about {
-        padding: 40px 0;
-    }
-    .sign-content {
-        margin-top: 0;
-        text-align: center;
-    }
-    .news-item {
-        padding: 30px 0 20px 0;
-        text-align: left;
-    }
-}
-
-
-/* // Medium devices (tablets, less than 992px) */
-
-@media (max-width: 991.98px) {
-    .hero:before {
-        width: 100%;
-        height: 77vh;
-        top: 142px;
-    }
-    .about::after {
-        top: -100px;
-        width: 60%;
-        height: 77%;
-    }
-    .about-vedio {
-        max-width: 550px;
-    }
-    .hero-text {
-        padding-top: 10%;
-    }
-    .about {
-        padding: 40px 0;
-    }
-    .sign-content {
-        margin-top: 0;
-        text-align: center;
-    }
-    .about-txt {
-        padding-top: 63px;
-    }
-    .sign-content h2 {
-        margin-bottom: 50px;
-    }
-}
-
-
-/* // Large devices (desktops, less than 1200px) */
-
-@media (max-width: 1199.98px) {
-    .about::after {
-        left: -200px;
-    }
-    .sign-content {
-        margin-top: 50px;
-        text-align: center;
-    }
-    .hero::after {
-        top: 72px;
-        right: 0;
-        max-width: 500px;
-    }
-}
-
-
-/* // X-Large devices (large desktops, less than 1400px) */
-
-@media (max-width: 1399.98px) {}
+                                    /* // X-Small devices (portrait phones, less than 576px) */
+                                
+                                @media (max-width: 575.98px) {
+                                    .hero-text {
+                                        padding-top: 15%;
+                                        text-align: center;
+                                    }
+                                    .hero-text h2 {
+                                        font-size: 30px;
+                                        line-height: 35px;
+                                    }
+                                    .hero-text p {
+                                        font-size: 16px;
+                                    }
+                                    .department {
+                                        margin-top: -53px;
+                                        position: relative;
+                                        z-index: 1;
+                                    }
+                                    .department-title h4 {
+                                        font-size: 30px;
+                                    }
+                                    .department-item h5 {
+                                        margin: 0;
+                                    }
+                                    .department-item {
+                                        padding: 25px 0;
+                                        max-width: 400px;
+                                        margin: 10px auto;
+                                    }
+                                    .about {
+                                        padding: 40px 0;
+                                    }
+                                    .about::after {
+                                        top: -100px;
+                                        left: 0;
+                                        width: 58%;
+                                        height: 63%;
+                                    }
+                                    .about-vedio img {
+                                        max-width: 425px;
+                                    }
+                                    .about-txt {
+                                        padding-top: 35px;
+                                    }
+                                    .vedio-play {
+                                        left: 43%;
+                                        display: grid;
+                                    }
+                                    .sign-content {
+                                        margin-top: 2%;
+                                        text-align: center;
+                                    }
+                                    .signUp-from {
+                                        padding: 27px 31px;
+                                        max-width: 400px;
+                                        margin: 0 auto;
+                                    }
+                                    .btn.btn-primary {
+                                        padding: 6px 14px;
+                                        font-size: 12px;
+                                    }
+                                    section.news {
+                                        padding: 50px 0;
+                                    }
+                                    .about-txt h2 {
+                                        font-size: 30px;
+                                        margin-bottom: 38px;
+                                    }
+                                    .course-item .card {
+                                        max-width: 450px;
+                                        margin: 0 auto;
+                                    }
+                                    .course {
+                                        padding-bottom: 26px;
+                                    }
+                                    .news-item {
+                                        padding: 30px 0 15px 0;
+                                        text-align: center;
+                                    }
+                                    .footer {
+                                        padding: 40px 0 30px 0;
+                                    }
+                                    .footer-heading {
+                                        text-align: center;
+                                    }
+                                    .social-link {
+                                        padding-top: 10px;
+                                        justify-content: center;
+                                    }
+                                    .social-link li a {
+                                        margin: 10px;
+                                    }
+                                    .footer-heading h4 {
+                                        padding-bottom: 5px;
+                                        font-size: 16px;
+                                        margin-top: 20px;
+                                    }
+                                    .footer-heading P {
+                                        font-family: 'Roboto', sans-serif;
+                                        font-weight: 400;
+                                        margin: 5px 0;
+                                    }
+                                    .copyrigth {
+                                        padding: 15px;
+                                    }
+                                    ul.copyright-link {
+                                        justify-content: center;
+                                    }
+                                    .copyrigth-text h3 {
+                                        font-size: 16px;
+                                        color: #ddd;
+                                    }
+                                    /* Small devices (landscape phones, less than 768px) */
+                                    @media (max-width: 767.98px) {
+                                        .hero:before {
+                                            width: 100%;
+                                            height: 77vh;
+                                            top: 142px;
+                                        }
+                                        .about::after {
+                                            top: -100px;
+                                            width: 60%;
+                                            height: 77%;
+                                        }
+                                        .about-vedio {
+                                            max-width: 447px;
+                                        }
+                                        .hero-text {
+                                            padding-top: 10%;
+                                        }
+                                        .about {
+                                            padding: 40px 0;
+                                        }
+                                        .sign-content {
+                                            margin-top: 0;
+                                            text-align: center;
+                                        }
+                                        .department {
+                                            margin-top: -80px;
+                                            position: relative;
+                                            z-index: 1;
+                                        }
+                                        .department-title h4 {
+                                            font-size: 35px;
+                                        }
+                                        .department-item h5 {
+                                            margin: 0;
+                                        }
+                                        .department-item {
+                                            text-align: center;
+                                            padding: 25px 0;
+                                            background: rgb(249 112 58);
+                                            border-radius: 5px;
+                                            margin: 20px 5px;
+                                        }
+                                        .news-item {
+                                            padding: 30px 0 20px 0;
+                                            text-align: left;
+                                        }
+                                    }
+                                    /* // Medium devices (tablets, less than 992px) */
+                                    @media (max-width: 991.98px) {
+                                        .hero:before {
+                                            width: 100%;
+                                            height: 77vh;
+                                            top: 142px;
+                                        }
+                                        .about::after {
+                                            top: -100px;
+                                            width: 60%;
+                                            height: 77%;
+                                        }
+                                        .about-vedio {
+                                            max-width: 550px;
+                                        }
+                                        .hero-text {
+                                            padding-top: 10%;
+                                        }
+                                        .about {
+                                            padding: 40px 0;
+                                        }
+                                        .department {
+                                            margin-top: -53px;
+                                            position: relative;
+                                            z-index: 1;
+                                        }
+                                        .department {
+                                            margin-top: -93px;
+                                            z-index: 99;
+                                            position: relative;
+                                        }
+                                        .sign-content {
+                                            margin-top: 0;
+                                            text-align: center;
+                                        }
+                                        .about-txt {
+                                            padding-top: 63px;
+                                        }
+                                        .sign-content h2 {
+                                            margin-bottom: 50px;
+                                        }
+                                    }
+                                    /* // Large devices (desktops, less than 1200px) */
+                                    @media (max-width: 1199.98px) {
+                                        .about::after {
+                                            left: -200px;
+                                        }
+                                        .sign-content {
+                                            margin-top: 50px;
+                                            text-align: center;
+                                        }
+                                        .hero::after {
+                                            top: 72px;
+                                            right: 0;
+                                            max-width: 500px;
+                                        }
+                                    }
+                                    /* // X-Large devices (large desktops, less than 1400px) */
+                                    @media (max-width: 1399.98px) {}
