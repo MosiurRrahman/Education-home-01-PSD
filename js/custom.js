@@ -7,7 +7,6 @@ $(document).ready(function() {
 });
 
 
-
 $(function() {
     $(window).scroll(function() {
         var scrolling = $(this).scrollTop();
